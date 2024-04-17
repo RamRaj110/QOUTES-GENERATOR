@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random-Quotes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h3>Choose category</h3>
+            <select title="select" id="category" required>
+                <option value="random">Select</option>
+                <option value="love">Love</option>
+                <option value="alone">Alone</option>
+                <option value="anger">Anger</option>
+                <option value="Attitude">Attitude</option>
+                <option value="cool">Cool</option>
+                <option value="education">Education</option>
+                <option value="success">Succes</option>
+                <option value="dreams">Dreams</option>
+                <option value="death">Death</option>
+                
+            </select>
+        </div>
+        <h2 id="loading">Loading...</h2>
+        <h2 id="quote"></h2>
+        <div class="author">
+            <p id="author"></p>
+        </div>
+      
+        <button id="new-quote">New Quote</button>
+    </div>
+</body>
+</html>
